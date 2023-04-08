@@ -1,0 +1,11 @@
+c:\Users\blade\OneDrive\Desktop\ปี3\jumpbox\web-app\target\debug\deps\futures_task-b19392731c4aeea0.rmeta: C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\lib.rs C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\spawn.rs C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\arc_wake.rs C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\waker.rs C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\waker_ref.rs C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\future_obj.rs C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\noop_waker.rs
+
+c:\Users\blade\OneDrive\Desktop\ปี3\jumpbox\web-app\target\debug\deps\futures_task-b19392731c4aeea0.d: C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\lib.rs C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\spawn.rs C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\arc_wake.rs C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\waker.rs C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\waker_ref.rs C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\future_obj.rs C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\noop_waker.rs
+
+C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\lib.rs:
+C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\spawn.rs:
+C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\arc_wake.rs:
+C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\waker.rs:
+C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\waker_ref.rs:
+C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\future_obj.rs:
+C:\Users\blade\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.27\src\noop_waker.rs:
