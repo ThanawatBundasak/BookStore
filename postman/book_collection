@@ -1,0 +1,235 @@
+{
+	"info": {
+		"_postman_id": "4fcd1efa-2502-4f8e-ae18-d1f1b7e6ac5d",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8080/books",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"category\": \"kid\",\r\n            \"list\": [\r\n                    {   \r\n                     \"book_id\" : 9,\r\n                     \"book_name\": \"Cinderella\",\r\n                     \"price\": 200,\r\n                     \"stock\" : 9\r\n                    }\r\n            ]\r\n            }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/books/20",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"books",
+						"20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/books",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"category\": \"kid\",\r\n            \"list\": [\r\n                    {   \r\n                     \"book_id\" : 9,\r\n                     \"book_name\": \"Cinderella\",\r\n                     \"price\": 200,\r\n                     \"stock\" : 9\r\n                    }\r\n            ]\r\n            }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/books",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/books",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"category\": \"kid\",\r\n            \"list\": [\r\n                    {   \r\n                     \"book_id\" : 9,\r\n                     \"book_name\": \"Cinderella\",\r\n                     \"price\": 200,\r\n                     \"stock\" : 9\r\n                    }\r\n            ]\r\n            }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/books/20",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"books",
+						"20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/books",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"category\": \"kid\",\r\n            \"list\": [\r\n                    {   \r\n                     \"book_id\" : 9,\r\n                     \"book_name\": \"Cinderella\",\r\n                     \"price\": 200,\r\n                     \"stock\" : 9\r\n                    }\r\n            ]\r\n            }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/books/20",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"books",
+						"20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/books",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"category\": \"kid\",\r\n            \"list\": [\r\n                    {   \r\n                     \"book_id\" : 9,\r\n                     \"book_name\": \"Cinderella\",\r\n                     \"price\": 200,\r\n                     \"stock\" : 9\r\n                    }\r\n            ]\r\n            }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/books/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"books",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/books",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"category\": \"kid\",\r\n            \"list\": [\r\n                    {   \r\n                     \"book_id\" : 9,\r\n                     \"book_name\": \"Cinderella\",\r\n                     \"price\": 200,\r\n                     \"stock\" : 9\r\n                    }\r\n            ]\r\n            }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/books/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"books",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/books",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"category\": \"kid\",\r\n            \"list\": [\r\n                    {   \r\n                     \"book_id\" : 9,\r\n                     \"book_name\": \"Cinderella\",\r\n                     \"price\": 200,\r\n                     \"stock\" : 9\r\n                    }\r\n            ]\r\n            }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/books/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"books",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
