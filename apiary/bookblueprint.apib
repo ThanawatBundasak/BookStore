@@ -1,0 +1,215 @@
+FORMAT: 1A
+HOST: https://polls.apiblueprint.org/
+
+# BookStore
+
+เป็นเว็บร้านขายในการขายหนังสือ
+## User Profile [/profile]
+
+### Profile [GET]
+ 
+
++ Response 200 (application/json)
+   
+    + Headers
+            
+            Location: /profile/20
+            
+    + Body
+    
+            {
+             "id" : 20,
+            "username" : "Pond",
+            }
+        
+
+## Books Collection [/books]
+
+### Books List [GET]
+
++ Response 200 (application/json)
+
+   + Body     
+        
+            [
+            {
+                "category": "kid",
+                "published_at": "2023-03-19T08:40:51.620Z",
+                "list": [
+                    {
+                        "book_id" : 1,
+                        "book_name": "Little Red Riding Hood",
+                        "price": 100,
+                        "stock" : 6
+                    }, {
+                        "book_id" : 2,
+                        "book_name": "Peterpan",
+                        "price": 120,
+                        "stock" : 8
+                    }, {
+                        "book_id" : 3,
+                        "book_name": "Alice In Wonderland",
+                        "price": 100,
+                        "stock" : 12
+                    }, {
+                        "book_id" : 4,
+                        "book_name": "Pinocchio",
+                        "price": 120,
+                        "stock" : 15
+                    }
+                ]
+            } 
+            {
+                "category": "education",
+                "published_at": "2023-03-19T08:50:51.620Z",
+                "list": [
+                    {   
+                        "book_id" : 5,
+                        "book_name": "คณิตไม่ต้องคิด",
+                        "price": 100,
+                        "stock" : 2
+                    }, {
+                        "book_id" : 6,
+                        "book_name": "ไทยวิบัติ",
+                        "price": 120,
+                        "stock" : 6
+                    }, {
+                        "book_id" : 7,
+                        "book_name": "เคมีแห่งนรก",
+                        "price": 100,
+                        "stock" : 3
+                    }, {
+                        "book_id" : 8,
+                        "book_name": "แหกกฎหมาย",
+                        "price": 120,
+                        "stock" : 1
+                    }
+                ]
+            }
+            ]
+
++ Response 404 
+    
+    + Headers
+            
+            Location: /books/20
+            
+    + Body
+    
+            [
+                {
+                    "Error 404":"Not Found"
+                }
+            ]
+        
+### Add Book To List [POST]
+
++ Request (application/json)
+
+   + Body
+            
+            [
+            {
+            "category": "kid",
+            "list": [
+                    {   
+                     "book_id" : 9,
+                     "book_name": "Cinderella",
+                     "price": 200,
+                     "stock" : 9
+                    }
+            ]
+            }
+            
+
++ Response 201 (application/json)
+
+    + Headers
+
+            Location: /books/20
+
+    + Body
+
+            [
+            {
+                "category": "kid",
+                "published_at": "2023-03-19T08:40:51.620Z",
+                "list": [
+                    {   
+                        "book_id" : 9,
+                        "book_name": "Cinderella",
+                        "price": 200,
+                        "stock" : 9
+                    }
+                ]
+            } 
+           
+
+
+### Updates Book [PUT]
+
++ Request (application/json)
+        
+        
+    + Body
+    
+            [
+            {
+            "category": "kid",
+            "list": [
+                    {   
+                        "book_id" : 9,
+                        "book_name": "Cinderella",
+                        "price": 1500,
+                        "stock" : 7
+                    }
+            ]
+            }
+            
+
++ Response 201 (application/json)
+
+    + Headers
+
+            Location: /books/20
+
+    + Body
+    
+            [
+                {
+                    "category": "kid",
+                    "published_at": "2023-03-19T08:40:51.620Z",
+                    "list": [
+                    {   
+                        "book_id" : 9,
+                        "book_name": "Cinderella",
+                        "price": 1500,
+                        "stock" : 7
+                    }
+                ]
+            } 
+            
+        
+
+### Delete Book  [DELETE]
+
++ Request (application/json)
+        
+            [
+            {
+            "category": "kid",
+            "list": [
+                    {   
+                        "book_id" : 9
+                    }
+            ]
+            }
+            ]
+        
++ Response 200 (application/json)
+    
+            [
+            {
+            "message": "Delete complete"
+            }
+            ]
